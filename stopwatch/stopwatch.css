@@ -1,0 +1,39 @@
+body {
+    background:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    } 
+#container {
+    color: silver;  
+}
+h1{
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.digit{
+    font-size:100px;
+    font-weight: bold;
+  }
+.txt{
+    font-size: 40px;
+}
+#btn_container{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{ 
+    color:rgb(21, 103, 226);
+    border: solid 1px silver;
+    border-radius: 10px;
+    cursor:pointer;
+    font-size:25px;
+    padding:18px 10px;
+    margin: 0px 10px;
+}
+button:hover {
+    background-color:rgb(14, 14, 82);
+    border: solid 1px silver;
+    color:silver;
+    }
